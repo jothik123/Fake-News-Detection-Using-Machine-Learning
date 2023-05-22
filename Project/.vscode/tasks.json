@@ -1,0 +1,14 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "build",
+			"path": "Myenv/Lib/site-packages/jupyterlab_pygments/labextension",
+			"group": "build",
+			"problemMatcher": [],
+			"label": "npm: build - Myenv/Lib/site-packages/jupyterlab_pygments/labextension",
+			"detail": "jlpm build:css && jlpm build:lib && jlpm build:labextension:dev"
+		}
+	]
+}
